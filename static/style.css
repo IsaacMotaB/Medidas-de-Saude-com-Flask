@@ -1,0 +1,37 @@
+*:hover {
+    color: yellow !important;
+    background-color: #000000 !important;
+}
+body {
+    color: #7a6c6c;
+    background-color: #201830;
+    padding-left: 13em;
+
+}
+ul.navbar {
+    color: #ff88ff;
+    padding-left: 0;
+    margin: 0;
+    left: 2.3em;
+    position: absolute;
+}
+ul.navbar li {
+    background: #e46767;
+    padding: .5em;
+    margin: .7em;
+    border-right: .9em solid #363636;
+}
+h1 {
+    font-family: serif;
+}
+a {
+  color: #d3adff;
+}
+a:visited {
+    color: #ffffff;
+}
+
+input,select {
+    background: #252525;
+    color: #55aae2;
+}

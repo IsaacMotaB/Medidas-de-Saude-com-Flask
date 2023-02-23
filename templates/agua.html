@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+
+{% if agua %}
+<h1>Você precisa beber {{ agua }} ml</h1>
+{% endif %}
+<h1>Digite as suas medidas para calcular o consumo de água</h1>
+<form>
+    Peso: <input type="text" name="peso" value=""><br>
+    <input type="submit" value="Enviar">
+</form>
+
+{% endblock %}

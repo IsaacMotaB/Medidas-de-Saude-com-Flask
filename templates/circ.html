@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+
+{% if risco %}
+<h1>Seu risco de cardiopatia é {{ risco }}</h1>
+{% endif %}
+<h1>Digite as suas medidas para calcular risco de cardiopatia</h1>
+<form>
+    Circumferencia abdominal: <input type="text" name="circum">
+    <select name="sexo">
+      <option value="feminino">Feminino</option>
+      <option value="masculino">Masculino</option>
+    </select><br>
+    <input type="submit" value="Enviar">
+</form>
+
+{% endblock %}

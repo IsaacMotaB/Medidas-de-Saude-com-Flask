@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% block head %}
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Medidas de Saude</title>
+    {% endblock %}
+  </head>
+  <body>
+    <ul>
+      <li><a href= "/">Homepage</a></li>
+      <li><a href="/imc">IMC</a></li>
+      <li><a href="/circ">Circumferencia Abdominal</a></li>
+      <li><a href="/agua">Consumo de Agua</a></li>
+    </ul>
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+
+{% if imc %}
+<h1>Seu IMC é {{ imc }} kg/m²</h1>
+{% endif %}
+<h1>Digite as suas medidas para calcular IMC</h1>
+<form>
+    Peso: <input type="text" name="peso" value=""><br>
+    Altura: <input type="text" name="altura" value=""><br>
+    <input type="submit" value="Enviar">
+</form>
+
+{% endblock %}
